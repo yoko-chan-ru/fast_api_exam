@@ -3,7 +3,7 @@
 REST API для управления музыкальной библиотекой.
 
 ## Технологии
-- Python 3.11
+- Python 
 - FastAPI
 - SQLAlchemy (PostgreSQL)
 - Docker, Docker Compose
