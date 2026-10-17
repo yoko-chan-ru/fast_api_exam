@@ -1,13 +1,12 @@
 # Music API
 
-REST API для управления музыкальной библиотекой (исполнители и их альбомы).
+REST API для управления музыкальной библиотекой.
 
 ## Технологии
 - Python 3.11
 - FastAPI
 - SQLAlchemy (PostgreSQL)
 - Docker, Docker Compose
-- Pytest (тестирование)
 
 ## Как запустить проект
 
