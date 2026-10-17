@@ -1,7 +1,8 @@
 from fastapi import FastAPI
 
-from database import engine, Base
-from routers import artists, albums
+from app.database import engine, Base
+from app.routers import albums
+from app.routers import artists
 
 Base.metadata.create_all(engine)
 

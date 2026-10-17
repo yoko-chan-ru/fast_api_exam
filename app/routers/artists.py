@@ -2,9 +2,9 @@ from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from database import get_db
-from models import Artist
-from schemas import ArtistOut, ArtistWithAlbums, ArtistCreate
+from app.database import get_db
+from app.models import Artist
+from app.schemas import ArtistOut, ArtistWithAlbums, ArtistCreate
 
 router = APIRouter(prefix="/artists", tags=["artists"])
 
