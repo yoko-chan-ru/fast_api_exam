@@ -1,27 +1,6 @@
-# Виртуальное окружение
-.venv/
-venv/
-env/
-
-# Кэш Python
 __pycache__/
-*.py[cod]
-*$py.class
-
-# Кэш тестов
-.pytest_cache/
-
-# Переменные окружения (там пароли!)
+*.pyc
+.venv/
 .env
-
-# Локальные базы данных (SQLite)
+.pytest_cache/
 *.db
-*.sqlite3
-
-# Файлы IDE (если кто-то откроет в PyCharm)
-.idea/
-.vscode/
-
-# Системный мусор (Mac/Windows)
-.DS_Store
-Thumbs.db
