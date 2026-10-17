@@ -1,3 +1,27 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кэш Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Кэш тестов
+.pytest_cache/
+
+# Переменные окружения (там пароли!)
+.env
+
+# Локальные базы данных (SQLite)
+*.db
+*.sqlite3
+
+# Файлы IDE (если кто-то откроет в PyCharm)
+.idea/
+.vscode/
+
+# Системный мусор (Mac/Windows)
+.DS_Store
+Thumbs.db
